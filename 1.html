@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<h2>JavaScript in Body</h2>
-
-<p id="demo">zaki</p>
-
-<script>
-document.getElementById("demo").innerHTML = "My First JavaScript";
-</script>
-
-</body>
-</html> 
+  <head>
+    <title> function</title>
+    <script>
+      function myFunction() {
+        document.getElementById("za").innerHTML="changed via function call";
+        document.getElementById("za1").innerHTML="aaaaaaaa";
+        document.getElementById("za2").innerHTML="bbbbbbb";
+        document.getElementById("za3").innerHTML="ccccccccc";
+   
+      }
+    </script>
+  </head>
+  <body>
+    <p id="za">zaki</p>
+    <p id="za1">zaki</p>
+    <p id="za2">zaki</p>
+    <p id="za3">zaki</p>
+    <button type="button" onclick="myFunction()">click me</button>
+  </body>
+</html>
