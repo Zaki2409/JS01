@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <p id="za"></p>
+    <p id="sa">sanaa</p>
+    <p id="zak"></p>
     <script>
-   function celcius(f) {
-   return (5/9) * (f -32);
-   }
-document.getElementById("za").innerHTML= celcius(32);
+      const zak = {
+        first:"zaki",
+        sec:"khan",
+        age:18,
+        gender:"M",
+        FullName: function() {
+          return this.first + " " + this.sec;
+        }
+        
+      }
+    
+     let da = document.getElementById("sa").innerHTML;
+      document.getElementById("zak").innerHTML= da + " " + zak.FullName();
     </script>
   </body>
 </html>
